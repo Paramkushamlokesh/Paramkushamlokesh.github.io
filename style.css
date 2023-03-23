@@ -37,6 +37,10 @@ import google fonts
     font-size: 20px;
     width: 45%;
   }
+
+
+
+  
   /* ///// */
   :root {
     --color-calendar-graph-day-bg: #dddbdb;
@@ -205,7 +209,7 @@ import google fonts
       z-index: 99999;
       padding: 10px;
       font-size: 12px;
-      color: #959da5;
+      color: #57a5e9;
       text-align: center;
       background: rgba(0,0,0,.85);
       border-radius: 3px;
@@ -253,6 +257,10 @@ import google fonts
   .contact,
   footer {
     font-family: "Poppins", sans-serif;
+    
+  }
+  .Paramkushamlokesh-copyright{
+    color: #57a5e9;
   }
   .about .about-content,
   .services .serv-content,
@@ -287,7 +295,7 @@ import google fonts
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #92bcb5;
+    color: #57a5e9;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -304,7 +312,7 @@ import google fonts
   }
   .navbar.sticky {
     padding: 15px 0;
-    background: #92bcb5;
+    background: #57a5e9;
   }
   .navbar .max-width {
     display: flex;
@@ -317,7 +325,7 @@ import google fonts
     font-weight: 600;
   }
   .navbar .logo a span {
-    color: #92bcb5;
+    color: #57a5e9;
     transition: all 0.3s ease;
   }
   .navbar.sticky .logo a span {
@@ -336,7 +344,7 @@ import google fonts
     transition: color 0.3s ease;
   }
   .navbar .menu li a:hover {
-    color: #92bcb5;
+    color: #000;
   }
   .navbar.sticky .menu li a:hover {
     color: #fff;
@@ -385,8 +393,8 @@ import google fonts
     background: url("./images/bg.jpg") no-repeat center;
     background-color: #111;
     height: 100vh;
-    color:  #ff9d00;
-    min-height: 500px;
+    color:  #57a5e9;
+    min-height: 880px;
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
@@ -405,7 +413,32 @@ import google fonts
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    position: relative;
   }
+  .home .home-content .text-2 span{
+    animation: animate 3s linear infinite alternate;
+  }
+  @keyframes animate
+  {
+     
+
+      0% {
+        color: rgb(46, 44, 44);
+        left: 0;
+      }
+      50% {
+        left: calc(100% - 100px); 
+      }
+      100% {
+        color: #fff;
+        left: 0;
+        text-shadow: 0 0 10px #4790c7,
+        0 0 10px #4790c7,
+        0 0 15px #4790c7,
+        0 0 25px #4790c7;
+      }
+  }
+
   .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
@@ -416,18 +449,18 @@ import google fonts
   }
   .home .home-content a {
     display: inline-block;
-    background: #92bcb5;
+    background: #57a5e9;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #92bcb5;
+    border: 2px solid #57a5e9;
     transition: all 0.3s ease;
   }
   .home .home-content a:hover {
-    color: #92bcb5;
+    /* color: #92bcb5; */
     background: none;
   }
   /* git section */
@@ -480,18 +513,18 @@ import google fonts
   }
   .about .about-content .right a {
     display: inline-block;
-    background: #92bcb5;
+    background: #57a5e9;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #92bcb5;
+    border: 2px solid #57a5e9;
     transition: all 0.3s ease;
   }
   .about .about-content .right a:hover {
-    color: #92bcb5;
+    color: #57a5e9;
     background: none;
   }
   .about .title::after {
@@ -525,7 +558,7 @@ import google fonts
     transition: all 0.3s ease;
   }
   .services .serv-content .project-card:hover {
-    background: #92bcb5;
+    background: #57a5e9;
     color: #555;
     /* change*/
   }
@@ -537,7 +570,7 @@ import google fonts
   }
   .services .serv-content .project-card i {
     font-size: 50px;
-    color: #92bcb5;
+    color: #57a5e9;
     transition: color 0.3s ease;
   }
   .services .serv-content .project-card:hover i {
@@ -585,18 +618,18 @@ import google fonts
   }
   .skills .skills-content .left a {
     display: inline-block;
-    background: #92bcb5;
+    background: #57a5e9;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #92bcb5;
+    border: 2px solid #57a5e9;
     transition: all 0.3s ease;
   }
   .skills .skills-content .left a:hover {
-    color: #92bcb5;
+    color: #57a5e9;
     background: none;
   }
   .skills .skills-content .right .bars {
@@ -624,7 +657,7 @@ import google fonts
     height: 100%;
     left: 0;
     top: 0;
-    background: #92bcb5;
+    background: #57a5e9;
   }
   .skills-content .right .html::before {
     width: 90%;
@@ -655,7 +688,7 @@ import google fonts
     transition: all 0.3s ease;
   }
   .project .carousel .project-card:hover {
-    background: #92bcb5;
+    background: #57a5e9;
     color: #000;
     /* change */
   }
@@ -717,7 +750,7 @@ import google fonts
     width: 250px;
     object-fit: cover;
     border-radius: 5%;
-    border: 5px solid #92bcb5;
+    border: 5px solid #57a5e9;
     transition: all 0.3s ease;
   }
   .project .carousel .project-card:hover img {
@@ -734,7 +767,7 @@ import google fonts
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #92bcb5 !important;
+    border: 2px solid #57a5e9 !important;
     transition: all 0.3s ease;
   }
   .owl-dot.active {
@@ -743,7 +776,7 @@ import google fonts
   }
   .owl-dot.active,
   .owl-dot:hover {
-    background: #92bcb5 !important;
+    background: #57a5e9 !important;
   }
   .skills-card {
     width: 120px;
@@ -779,7 +812,7 @@ import google fonts
   }
   .contact .contact-content .row i {
     font-size: 25px;
-    color: #92bcb5;
+    color: #57a5e9;
   }
   .contact .contact-content .info .head {
     font-weight: 500;
@@ -846,12 +879,12 @@ import google fonts
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: #92bcb5;
-    border: 2px solid #92bcb5;
+    background: #57a5e9;
+    border: 2px solid #57a5e9;
     transition: all 0.3s ease;
   }
   .right form .button-area button:hover {
-    color: #92bcb5;
+    color: #57a5e9;
     background: none;
   }
   /* footer section styling */
