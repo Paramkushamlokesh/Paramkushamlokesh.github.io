@@ -444,10 +444,10 @@ import google fonts
     margin: 5px 0;
   }
   .home .home-content .text-3 span {
-    color: #92bcb5;
+    color: #57a5e9;
     font-weight: 500;
   }
-  .home .home-content a {
+  .home .home-content button {
     display: inline-block;
     background: #57a5e9;
     color: #fff;
@@ -459,8 +459,11 @@ import google fonts
     border: 2px solid #57a5e9;
     transition: all 0.3s ease;
   }
-  .home .home-content a:hover {
-    /* color: #92bcb5; */
+  .home .home-content button label{
+    color: #fff;
+  }
+  .home .home-content button:hover {
+    color: #92bcb5;
     background: none;
   }
   /* git section */
