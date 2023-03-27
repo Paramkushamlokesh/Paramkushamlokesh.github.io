@@ -76,6 +76,6 @@ $(document).ready(function () {
     });
   });
 
-  function funji(){
+  function resume(){
     window.open('./downloads/Lokesh_Paramkusham_Resume.pdf',"_blank")
   }
