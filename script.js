@@ -40,6 +40,10 @@ $(document).ready(function () {
     //   backSpeed: 60,
     //   loop: true,
     // });
+
+    
+   
+    /////
   
     var typed = new Typed(".typing-2", {
       strings: ["Java Developer", "Coder", "Problem Solver"],
@@ -71,3 +75,7 @@ $(document).ready(function () {
       },
     });
   });
+
+  function funji(){
+    window.open('./downloads/Lokesh_Paramkusham_Resume.pdf',"_blank")
+  }
