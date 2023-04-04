@@ -335,6 +335,17 @@ import google fonts
     list-style: none;
     display: inline-block;
   }
+  .navbar .menu li button{
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+  }
   .navbar .menu li a {
     display: block;
     color: #fff;
@@ -932,7 +943,7 @@ import google fonts
       width: 100%;
       left: -100%;
       top: 0;
-      background: #111;
+      background: gray;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
@@ -997,7 +1008,7 @@ import google fonts
       width: 100%;
       left: -100%;
       top: 0;
-      background: #111;
+      background: gray;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
@@ -1044,7 +1055,7 @@ import google fonts
       width: 100%;
       left: -100%;
       top: 0;
-      background: #111;
+      background: gray;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
