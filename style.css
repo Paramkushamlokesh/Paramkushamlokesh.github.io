@@ -81,7 +81,7 @@ import google fonts
       border: 1px solid #DDDDDD;
       border-radius: 3px;
       min-height: 243px;
-      width: 1200px;
+      width: 100%;
       text-align: center;
       margin: 20px auto;
   }
@@ -480,9 +480,12 @@ import google fonts
   /* git section */
   #git-streaks{
     display: flex;
-    width:80%;
-    justify-content: space-around;
+    width:100%;
+    justify-content:space-evenly;
     margin:50px auto;
+  }
+  #git-streaks>*{
+    margin: 0 10px 0 10px;
   }
   #git-lang>p{
     width:80%;
@@ -930,6 +933,34 @@ import google fonts
     }
   }
   @media (max-width: 947px) {
+
+    .navbar {
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      padding: 30px 0;
+      font-family: "Ubuntu", sans-serif;
+      transition: all 0.3s ease;
+    }
+    .services #git-streaks{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .services #git-streaks>*{
+      margin-top: 20px;
+    }
+    /* .navbar.sticky {
+      padding: 15px 0;
+      background: #57a5e9;
+    } */
+    /* .navbar .max-width {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    } */
+
+
     .nav-link {
       display: block;
       z-index: 999;
@@ -990,7 +1021,8 @@ import google fonts
     .skills .skills-content .column,
     .contact .contact-content .column {
       width: 100%;
-      margin-bottom: 35px;
+      margin-bottom: 55px;
+      margin-left: 15px;
     }
   }
   
@@ -1099,4 +1131,5 @@ import google fonts
       font-size: 23px;
       line-height: 38px;
     }
-  } 
+  }
+  
