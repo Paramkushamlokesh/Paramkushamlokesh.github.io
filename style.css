@@ -948,7 +948,7 @@ import google fonts
       flex-direction: column;
       align-items: center;
     }
-    .services #git-streaks>*{
+    .services #git-streaks *{
       margin-top: 20px;
     }
     /* .navbar.sticky {
@@ -1028,6 +1028,9 @@ import google fonts
   }
   
   @media (max-width: 690px) {
+    .services #git-streaks *{
+      width: 300px;
+    }
     .nav-link {
       display: block;
       z-index: 999;
