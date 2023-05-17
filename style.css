@@ -932,7 +932,8 @@ import google fonts
       padding: 0 50px;
     }
   }
-  @media (max-width: 947px) {
+  /* 947 */
+  @media (max-width: 1053px) {
 
     .navbar {
       position: fixed;
